@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Sederhana</title>
+    <style>
+        #identitas{
+            text-align: center;
+        }
+        #identitas img{
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+<div id="identitas">
+    <img src="foto.jpg">
+    <p>Farrel Fadhilah</p>
+    <p>6701220096</p>
+</div>
+<div>
+    <label for="jumlah">jumlah:</label>
+    <input type="text" id="jumlah">
+
+    <label for="buku">buku:</label>
+    <select id="buku">
+        <option value="sherlock">sherlock</option>
+        <option value="lupin">lupin</option>
+        <option value="aladin">aladin</option>
+    </select>
+    <button onclick="pinjam()">peminjaman buku</button>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
